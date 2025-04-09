@@ -23,3 +23,69 @@ go.work.sum
 
 # env file
 .env
+
+# Log file
+*.log
+
+*.zip
+*.tar.gz
+*.rar
+
+HELP.md
+
+### VS Code ###
+.vscode/
+.dccache
+.dccache
+*.code-workspace
+boot.sh
+
+# Archivos binarios compilados
+/bin/
+/dist/
+
+# Air live reload
+/tmp/
+
+# Archivos de configuración local
+config.local.yaml
+*.local.yaml
+*.local.yml
+
+# Archivos de cache golang
+/.cache/
+
+# Directorios de dependencias adicionales
+/.idea/
+/.vscode/
+/.vs/
+
+# Archivos de base de datos locales
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de certificados locales
+*.pem
+*.key
+*.crt
+
+# Archivos temporales
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Directorios de frontend compilado (si tienes frontend)
+/public/
+/static/dist/
+
+# Archivos de logs adicionales
+/logs/
+access.log
+error.log
+
+# Archivos de cobertura y pruebas
+/coverage/
+coverage.txt
+profile.out
+
