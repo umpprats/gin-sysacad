@@ -21,7 +21,12 @@ gin-sysacad
 └── README.md             
 ```
 ## Requisitos previos
-1. Tener instalado Golang version 1.24
+1. Tener instalado Golang version 1.24 https://go.dev/doc/install
+
+## Crear Proyecto Nuevo
+```
+go mod init https://github.com/usuario/proyecto
+```
 
 ## Instrucciones para el Proyecto
 
@@ -35,8 +40,14 @@ gin-sysacad
    ```
    go mod tidy
    ```
-
-3. **Ejecutar aplicacion:**
+3. **Ejecutar Test**
    ```
-   go run cmd/main.go
+   # Ejecuta todos los test en un directorio/carpeta
+   go test
+   # Ejecuta un test específico
+   go test -run UniversidadTEst
+   ```
+4. **Ejecutar aplicación:**
+   ```
+   go run main.go
    ```
