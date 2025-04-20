@@ -2,7 +2,7 @@ package models
 
 import "testing"
 
-func FacultadTest(t *testing.T) {
+func TestFacultad(t *testing.T) {
 
 	facultad := &Facultad{
 		Nombre:       "Facultad Regional San Rafael",
