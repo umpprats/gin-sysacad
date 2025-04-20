@@ -1,7 +1,7 @@
 # SYSACAD en Gin Framework
 https://gin-gonic.com/es/docs/quickstart/
 
-## Structura del Proyecto
+## Estructura del Proyecto
 
 ```
 gin-sysacad
@@ -45,7 +45,7 @@ go mod init https://github.com/usuario/proyecto
    # Ejecuta todos los test en un directorio/carpeta
    go test
    # Ejecuta un test específico
-   go test -run UniversidadTEst
+   go test -run UniversidadTest
    ```
 4. **Ejecutar aplicación:**
    ```
