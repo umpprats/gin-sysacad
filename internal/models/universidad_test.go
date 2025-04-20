@@ -2,7 +2,7 @@ package models
 
 import "testing"
 
-func UniversidadTest(t *testing.T) {
+func TestUniversidad(t *testing.T) {
 
 	universidad := Universidad{
 		Sigla:  "UTN",
