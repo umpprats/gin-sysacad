@@ -1,7 +1,7 @@
 database:
   host: localhost
-  user: pprats
-  password: naranja
+  user: 
+  password: 
   dbname: DEV_SYSACAD
   port: "5432"
   sslmode: disable
