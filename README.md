@@ -51,3 +51,23 @@ go mod init https://github.com/usuario/proyecto
    ```
    go run main.go
    ```
+
+## Conexión a través de un ORM PostgreSQL
+   ORM simplifica el acceso a los datos al permitir a los desarrolladores interactuar con bases de datos mediante objetos y métodos de su lenguaje de programación preferido, en lugar de escribir consultas SQL.
+   - GORM (Golang): [https://gorm.io/docs/](https://gorm.io/docs/)
+   - Hibernate (Java): [hibernate.org/orm/documentation/](hibernate.org/orm/documentation/)
+   - Entity Framework (Microsoft .NET): [learn.microsoft.com/en-us/ef/](https://learn.microsoft.com/es-mx/ef/)
+   - SQLAlchemy (Python): [www.sqlalchemy.org/library.html#tutorials](https://www.sqlalchemy.org/library.html#tutorials)
+   - Django ORM (Python/Django): [docs.djangoproject.com/en/stable/topics/db/](https://docs.djangoproject.com/en/5.2/topics/db/)
+   - Sequelize (Node.js): [sequelize.org/docs/v6/](https://sequelize.org/docs/v6/)
+   - TypeORM (TypeScript/JavaScript): [typeorm.io/](https://typeorm.io/)
+   - Doctrine (PHP): [www.doctrine-project.org/projects/orm.html](https://www.doctrine-project.org/projects/orm.html)  
+   ```
+   go get gorm.io/gorm
+   go get gorm.io/driver/postgres
+   ```
+   Para obtener los valores de variables de entorno para el proyecto:
+   ```
+   go get github.com/spf13/viper
+   ```
+    

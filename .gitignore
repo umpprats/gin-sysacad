@@ -24,6 +24,10 @@ go.work.sum
 # env file
 .env
 
+# config.yaml en config/
+/config/config.yaml
+# Archivos de configuración de entorno
+
 # Log file
 *.log
 
