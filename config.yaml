@@ -1,0 +1,11 @@
+database:
+  host: localhost
+  user: pprats
+  password: naranja
+  dbname: DEV_SYSACAD
+  port: "5432"
+  sslmode: disable
+  timezone: America/Argentina/Buenos_Aires
+
+server:
+  port: "8080"

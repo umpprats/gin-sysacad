@@ -1,6 +1,8 @@
 package models
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestUniversidad(t *testing.T) {
 
@@ -20,4 +22,11 @@ func TestUniversidad(t *testing.T) {
 			t.Errorf("Se esperaba que la propiedad Nombre tenga 'Universidad Tecnológica Nacional', pero tiene '%s'", universidad.Nombre)
 		}
 	})
+
+	t.Run("Test TableName", func(t *testing.T) {
+		if universidad.TableName() != "universidades" {
+			t.Errorf("Se esperaba que el nombre de la tabla sea 'universidades', pero es '%s'", universidad.TableName())
+		}
+	})
+
 }
